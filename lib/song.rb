@@ -43,7 +43,7 @@ class Song
   def self.alphabetical 
     @@all.sort_by do |alphabetical|
     alphabetical.split('').map do 
-    ESPERANTO_ALPHABET.index(character)
+    ESPERANTO_ALPHABET.index
     end
   end
 end
